@@ -31,3 +31,8 @@ in the node settings, just append the msg.payload to the blank exec command
 6. add lots of inject and debug nodes to test all this out.
 7. the dashboard will trigger the stream with a button and will trigger shutoff with another button.
 8. stream is not running perpectually because I don't know if leaving the stream on is wrecking the write endurance of the sd card or just keeping the buffer/mjpg thing in ram. so just to be safe the stream will not stay on for more than 100 seconds, i.e. it will turn off in 100 seconds regardless of someone leaving it on.
+
+
+
+![flow image](https://github.com/anikk94/raspberry-pi-node-red-dashboard/blob/main/README/camera_test_flow.JPG)
+![dashboard image](https://github.com/anikk94/raspberry-pi-node-red-dashboard/blob/main/README/dashboard.JPG)
