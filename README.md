@@ -8,7 +8,7 @@
 ```
 2. exec node: this is how the script that starts the video is run from node red
 ```
-python3 /home/pi/Desktop/Raspberry\ Pi\ Camera/web_stream.py
+python3 <LOCATION OF EXECUTABLE>/web_stream.py
 ```
 3. exec node: to stop the video from node red 2 steps are needed - get the process id of the python program that is streaming camera data - killing the process with another exec node. this first exec will get the pid.
 ```
